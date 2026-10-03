@@ -1,0 +1,197 @@
+\documentclass[a4paper]{article}
+%\documentclass[]{file}
+\usepackage[margin=0.2in]{geometry}
+\usepackage{hyperref}
+\usepackage{array}
+\usepackage{romannum}
+\usepackage{fontawesome5}
+\usepackage[most]{tcolorbox}
+\usepackage{colortbl}
+\usepackage{enumitem}
+\newcolumntype{P}[1]{>{\centering\arraybackslash}p{#1}}
+\newcolumntype{M}[1]{>{\centering\arraybackslash}m{#1}}
+\usepackage{multicol}
+\setlist[itemize]{noitemsep, topsep=0pt}
+\addtolength{\parskip}{-1.5mm}
+\tcbset{
+    frame code={}
+    center title,
+    left=0pt,
+    right=0pt,
+    top=0pt,
+    bottom=0pt,
+    colback=gray!50,
+    colframe=white,
+    width=\dimexpr\textwidth\relax,
+    enlarge left by=0mm,
+    boxsep=3pt,
+    arc=0pt,outer arc=0pt,
+    }
+\begin{document}
+\begin{flushleft}
+\noindent {\huge\textbf{Anunay Shukla}}
+\vspace{-2mm}
+\end{flushleft}
+$3^{\text{rd}}$  Year Undergraduate \hfill\textbf{Email : }anunays21@iitk.ac.in
+\hfill \href{https://www.linkedin.com/in/anunayshukla20903/}{\faLinkedin \hspace{0.1cm}: Anunay Shukla} \vspace{-1mm}
+\\
+Department of Aerospace Engineering \hfill
+\hspace{-2.8cm} \textbf{Phone : }+91-9301922190 
+\hfill \href{https://github.com/Anunay-12}{\faGithubSquare \hspace{0.1cm}: Anunay Shukla}
+\vspace{-2mm}
+\\
+\noindent\rule[0.5ex]{\linewidth}{1pt}
+\vspace{-9mm}
+{\large \textbf{\begin{tcolorbox}\textsc{Academic Qualifications}\end{tcolorbox}}}
+\vspace{-3.6mm}
+\begin{center}
+\begin{tabular}{|p{2.5cm}|p{5.0cm}|p{8.5cm}|M{1.8cm}|}
+\hline
+\centering{\textbf{Year}} & \centering{\textbf{Degree/Certificate}} & \centering{\textbf{Institute}} & \textbf{CPI/$\%$}\\
+\hline
+\centering{2021} - Present & \centering{B.Tech} & \centering{Indian Institute of Technology Kanpur} & 8.0/10\\
+\hline
+\centering{2021} & \centering{CBSE(\Romannum{12})} & \centering{Shri Ram Centennial School} & 95.4$\%$\\
+\hline
+\centering{2019} & \centering{CBSE(\Romannum{10})} & \centering{St. Joseph Convent Senior Secondary School} & 97.6$\%$\\
+\hline
+\end{tabular}
+\end{center}
+
+
+\vspace{-5.3mm}
+
+
+{\large \textbf{\begin{tcolorbox}\textsc{Achievements and Proficiencies}\end{tcolorbox}}}
+\vspace{-4mm}
+\begin{itemize}
+%\item  Awarded the \textbf{Gold Medal} in \textbf{Inter IIT Tech Meet 11.0} for the JLR Robotic Charging Challenge Problem Statement
+\item Achieved the \textbf{Overall Winner} title \textbf{nationwide} in Class-I \textbf{Electric Vehicle} category at \textbf{Formula Bharat 2023}
+\item Received \textbf{Academic Excellence Award} in academic year \textbf{2021-22} for exceptional performance in academics
+\item Secured \textbf{All India Rank 2209} in \textbf{JEE Advanced 2021} among 141k shortlisted candidates, conducted by IIT Kharagpur
+\item Secured \textbf{All India Rank 1995} in \textbf{JEE Mains 2021} among more than 1.2 Million Candidates, conducted by NTA
+%\item Distinguished as a school \textbf{scholar} \textbf{consecutively} for consistently demonstrating \textbf{extraordinary academic performance}
+\end{itemize}
+\vspace{0mm}
+\vspace{1mm}
+{\large \textbf{\begin{tcolorbox}\textsc{Key Projects}\end{tcolorbox}}}
+\vspace{-6mm}
+%\begin{itemize}
+\begin{tcolorbox}[colback=black!10!white]$\circ$ \href{https://github.com/overhaul88/Fruit_Plucking_Project/tree/master}{\textbf{Image-based Navigation using Visual Feature Identification}} \hfill(\textit{Jun'23 - Present}) \end{tcolorbox}
+\vspace{-1.5mm}
+\hspace{5mm}Ministry of Electronics and Information Technology $|$ IIT Kanpur (Mentor : Dr. Tushar Sandhan \\
+\vspace{-4mm}
+\begin{itemize}
+\item Conducted a literature review on \textbf{image-based navigation}, map generation using visual features using \textbf{visual homing}
+\item Configured an \textbf{Nvidia jetson AGX xavier} with ROS Noetic on L4T 35.2.1 for integration in a \textbf{Husky A200 AGV} robot
+\item Utilized \textbf{YOLO V8 object detection} to identify an object and track its 3D-coordinates, using Intel Realsense stereo camera
+\item Deployed \textbf{real-time tracking} of the object and tuned a simple \textbf{PID controller} for accurate motion to target's coordinates
+
+\end{itemize}
+\vspace{-1mm}
+\begin{tcolorbox}[colback=black!10!white]$\circ$ \href{https://drive.google.com/drive/folders/166hrCrpN09uhIqIlOBmnanezpGgkbWdd?usp=drive_link}{\textbf{RoverBase}} \hfill(\textit{May'22 - Jul'22}) \end{tcolorbox}
+\vspace{-1.5mm}
+\hspace{5mm}Science and Technology Council Summer Project $|$ Robotics Club IITK \\
+\vspace{-3.5mm}
+\begin{itemize}
+\item Designed and analyzed a robust \textbf{rocker-bogie mechanism} for a model space rover using generative design in Fusion360
+\item Analyzed the mechanism’s performance on various paths like slope, step and ditch, using \textbf{Matlab, SimXpress and Simulink}
+\item Developed a \textbf{visual semi-autonomous navigation} system with depth sensing capabilities using a ZED2 stereo camera
+\item Successfully integrated \textbf{vision and motor control} by utilizing a Nvidia Jetson Nano, with an Arduino Uno microcontroller
+
+\end{itemize}
+
+\begin{tcolorbox}[colback=black!10!white]$\circ$ \textbf{FSEV Manufacturing$|$ IITK Motorsports}
+({Advisor: Dr. Manjesh Singh})\hfill
+(\textit{Apr'23 - Present})\end{tcolorbox}
+\vspace{-3.7mm}
+\begin{itemize}
+\item Conducted \textbf{ergonomic assessments} by building a \textbf{prototype chassis} with PVC tubes, validating our designs and \textbf{rulebook}
+\item \textbf{Assembled} the \textbf{wooden jigs} setup to securely position and align metal \textbf{chassis tubes} for accurate welding and joining
+\item \textbf{Manufactured} the physical chassis by cutting, grinding and welding the metal tubes precisely as per the \textbf{notching profiles}
+
+\end{itemize}
+\begin{tcolorbox}[colback=black!10!white]$\circ$ \href{https://drive.google.com/drive/folders/1oiH6b9AbboK-wSwyE31UJrv1AHQc7vtN?usp=drive_link}{\textbf{Development and Analysis of Suspension System for Formula Student Electric Vehicle}} \hfill(\textit{Jun'22 - Apr'23}) \end{tcolorbox}
+\vspace{-1.5mm}
+\hspace{10mm}Formula Student Electric $|$ Team IITK Motorsports (Mentor: Dr. Manjesh Singh)\\
+\vspace{-3.5mm}
+\begin{itemize}
+\item Designed and analysed a \textbf{double wishbone suspension} with an \textbf{anti-ackermann steering} and \textbf{coilover spring dampers}
+\item Created \textbf{mathematical models} on matlab to analyse suspension motion, including the steering and spring geometry models
+\item Implemented a \textbf{refined quarter car model} using \textbf{Maxwell’s model of vibrations} to study the bump and roll damping
+\item Verified the \textbf{reliability} of the above approach with industrially accepted softwares like \textbf{OptimumG} and \textbf{Lotus SHARK}
+
+\end{itemize}
+\vspace{-1mm}
+
+% \vspace{2.5mm}
+{\large \textbf{\begin{tcolorbox}\textsc{Technical Skills}\end{tcolorbox}}}
+\begin{itemize}
+\vspace{-4mm}
+\item \textbf{Programming Languages: }C, C++, MATLAB, Python, \LaTeX
+\item \textbf{Machine Learning Modules: } Numpy, Pandas, Matplotlib, Keras, PyTorch, Tensorflow, scikitLearn
+\item \textbf{Robotics and IoT: } ROS, Rospy, Roscpp, OpenCV, Rviz, Gazebo, SLAM toolbox, NAV2 stack, Raspberry Pi, Arduino
+\item \textbf{Software: } Fusion360, Solidworks, Ansys, MATLAB, Simulink, SimScape, OptimumG, Lotus SHARK, Adams Car
+\end{itemize}
+\vspace{2mm}
+{\large \textbf{\begin{tcolorbox}\textsc{Relevant Courses}\end{tcolorbox}}}
+\vspace{-2mm}
+\noindent
+\begin{center}
+\begin{tabular}{|p{6cm}|p{6cm}|p{6cm}|}
+\hline
+Thermodynamics & Mechanics of Solids & Fluid Mechanics\\
+Introduction to Aerospace Engineering & Experiments in Aerospace Engineering & Manufacturing Processes\\
+Dynamics & Electrodynamics & Classical Mechanics\\
+Complex Variables & Partial Differential Equations & Linear Algebra\\
+Real Analysis & Data Structures and Algorithms & Ordinary Differential Equations\\
+% Introduction to Logic & Language and Society & General Chemistry\\
+\hline
+\end{tabular}
+\end{center}
+{\large \textbf{\begin{tcolorbox}\textsc{Positions of Responsibility}\end{tcolorbox}}}
+\begin{itemize}
+\vspace{-3mm}
+\item \textbf{Subsystem Head: Suspension and Steering, IITK Motorsports}\hfill\hfill(\textit{Mar'23-Ongoing})
+\begin{itemize}
+    \item Leading a team of 10+ subsystem members to work towards designing and manufacturing of the inaugural FSEV IITK
+    \item Developed and implemented a daily subsystem timeline, ensuring that the targets are met for achieving team’s goal
+    \item Organized offline events to exhibit the team's productions, enhancing the team's reputation and image
+\end{itemize}
+% \vspace{-3.5mm}
+\item \textbf{Academic Mentor, Counselling Service Team}\hfill(\textit{Oct'22-Jul'23})
+\begin{itemize}
+\item Academic mentor for the course - \textbf{PHY112 - Classical Dynamics \& PHY115 - Oscillations \& Waves}
+\vspace{-0.5mm}
+\item Provided academic support on a one-to-one basis to a group of \textbf{25 freshmen} for their 1st year in the institute 
+\item Hosted and taught 3 academic mentor’s classes for 500+ freshmen for the course PHY112 and PHY115
+\end{itemize}
+\end{itemize}
+\vspace{-3mm}
+{\large \textbf{\begin{tcolorbox}\textsc{Extra-Curricular Activities}\end{tcolorbox}}}
+\vspace{-3.7mm}
+\begin{itemize}
+    \item Participated in Institute Badminton League and achieved \textbf{3rd team position} in the institute.
+    \item Participated in Takneek and SnT-Code 2023 as \textbf{Hall Captain} for Hall V, and \textbf{achieved victory} for pool Nawabs in both.
+    % \item Worked as \textbf{Senior Election Officer} for Election Commission and helped in smooth conduction of General Elections 2023
+    % \item Worked as \textbf{Junior Executive} for TechKriti 2022, and contacted 30+ different academic institutions for conducting TOSC exam. 
+\end{itemize}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\end{document}
